@@ -1,0 +1,42 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+    height:50%
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 100%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+li{
+    list-style: none;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 700;
+    position: relative;
+}
+.anchor::before{
+    content:'';
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: black;
+    bottom: -5px;
+    border-radius: .5rem;
+    transition: all 900ms ease-in-out;
+}
+.anchor:hover::before{
+    width: 100%;
+}

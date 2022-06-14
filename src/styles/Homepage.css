@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0rem 0 0 10%;
+    height: calc(100vh - 10rem);
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+.home_pageheader{
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.btn_section{
+    display: flex;
+    align-items: center;
+}
+.imgsection{
+    width: 60%;
+}
+.imgsection img{
+    width: 100%;
+    object-fit: contain;
+}
