@@ -68,7 +68,7 @@ UTILITY CLASSES
     text-transform: uppercase;
     font-size: 3rem;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
       body{
        display: none;
     }   
