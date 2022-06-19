@@ -1,0 +1,17 @@
+.About{
+    background-color: #000;
+}
+.content_section{
+    display: flex;
+    
+    flex-direction: column;
+}
+.card{
+    margin:4rem;
+}
+.information{
+    padding: 0 2rem;
+}
+.mainpara{
+    width: 100%;
+}
