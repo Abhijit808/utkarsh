@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .card{
-    margin:4rem;
+    margin:4rem 0;
 }
 .information{
     padding: 0 2rem;
